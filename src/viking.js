@@ -1,14 +1,27 @@
 // Soldier
-class Soldier {}
+class Soldier {
+  constructor(h, s) {
+    this.strength = s;
+    this.health = h;
+  }
+  attack() {
+    return this.strength;
+  }
+  receiveDamage(d) {
+    this.health -= d;
+  }
+
+
+}
 
 // Viking
-class Viking {}
+class Viking { }
 
 // Saxon
-class Saxon {}
+class Saxon { }
 
 // War
-class War {}
+class War { }
 
 
 
